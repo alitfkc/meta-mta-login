@@ -1,0 +1,33 @@
+<meta>
+	<info author="Meta Scripts -Beyonder" type="script" name="Login Panel" version="1.0" />
+        <!-- settings -->
+	<script src="settings.lua" type="shared" cache = "false" />
+		<!-- IMGS-->
+    <file src ="imgs/background.gif" />
+    <file src ="imgs/test.gif" />
+    <file src ="imgs/main.png" />
+    <file src ="imgs/fade.png" />
+    <file src ="imgs/btn.png" />
+    <file src ="imgs/tr.png" />
+    <file src ="imgs/en.png" />
+    <file src ="imgs/sound_on.png" />
+    <file src ="imgs/sound_off.png" />
+    <file src ="assets/editbox_a.png" />
+    <file src ="assets/editbox.png" />
+    <file src ="assets/iarrow.png" />
+    <file src ="assets/ierror.png" />
+    <file src ="assets/line.png" />
+        <!-- GUI -->
+    <script src="gui/editbox.lua" type="client" cache = "false" />
+	<script src="gui/gui.lua" type="client" cache = "false" />
+    <script src="gui/camera_mode_gui.lua" type="client" cache = "false" />
+
+        <!-- Client -->
+    <script src="client/util_c.lua" type="client" cache = "false" />
+    <script src="client/camera_c.lua" type="client" cache = "false" />
+
+        <!-- server -->
+    <script src="server/util_s.lua" type="server" cache = "false" />
+
+
+</meta>
